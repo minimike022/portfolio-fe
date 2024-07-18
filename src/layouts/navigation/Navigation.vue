@@ -1,11 +1,12 @@
 <script setup>
+import ContactUs from '../../components/buttons/ContactUs.vue';
 </script>
 
 <template>
-    <div class="flex items-center justify-between px-8 py-4">
-        <h1 class="text-primary">Solo Dev</h1>
-        <div>
-            routes
-        </div>
+    <div class="flex items-center">
+        <a href="" class="text-[#8E8E8E]">Home</a>
+        <a href="" class="text-[#8E8E8E]">About</a>
+        <a href="" class="text-[#8E8E8E]">Project</a>
+        <ContactUs/>
     </div>
 </template>
