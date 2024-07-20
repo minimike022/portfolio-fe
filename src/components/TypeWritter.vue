@@ -9,7 +9,6 @@ const typingSpeed = ref(70)
 const type = async () => {
     if (index.value < props.texts[currentIndex.value].length) {
         typedText.value += props.texts[currentIndex.value].charAt(index.value);
-        console.log(typedText.value)
         index.value++;
         setTimeout(type, typingSpeed.value);
     } else {
