@@ -19,13 +19,13 @@
                     building things. 
                     <br><br>It all started when I was in 9th grade. <span class="text-primary">I built several mobile
                     applications
-                    using Java</span>, and when I’m in 11th grade, <span class="text-primary">I built multiple game applications in 2d and 3d for both android and
+                    using Java</span>, and when I was in 11th grade, <span class="text-primary">I built multiple game applications in 2D and 3D for both android and
                         windows devices using unity game engine and C#.</span>
 
-                    <br><br>-- Moving forward. I’m very passionate on <span class="text-primary">
+                    <br><br>-- Moving forward. I’m very passionate about <span class="text-primary">
                         building modern web applications using multiple
-                    technologies
-                    </span>, ensuring that each application is built to high quality standards.
+                    technologies,
+                    </span> ensuring that each application is built to high quality standards.
                     <br><br>Here are the languages and frameworks that I’ve been working with recently.
                     <br><br><div class="grid grid-cols-3 gap-y-2 text-sm">
                         <li>HTML</li>
