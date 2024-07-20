@@ -4,7 +4,7 @@ import HomeView from './views/HomeView.vue';
 import ProjectsView from './views/ProjectsView.vue';
 import ContactView from './views/ContactView.vue';
 import HeaderView from './views/HeaderView.vue';
-
+import Socials from './layouts/socials/Socials.vue';
 </script>
 
 
@@ -18,5 +18,5 @@ import HeaderView from './views/HeaderView.vue';
       <ContactView id="contact"/>
     </div>
   </div>
-
+  <Socials/>
 </template>
