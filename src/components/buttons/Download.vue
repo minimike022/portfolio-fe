@@ -6,7 +6,7 @@ const download_cv = () => {
 </script>
 
 <template>
-    <div class="w-[25dvh] border border-primary py-2 rounded-md text-center" @click="download_cv()">
-        <h1 class="text-primary">Download CV</h1>
+    <div class="transition duration-300 ease-in-out w-[25dvh] text-primary border border-primary py-2 rounded-md text-center hover:bg-primary hover:text-white cursor-pointer" @click="download_cv()">
+        <h1>Download CV</h1>
     </div>
 </template>

@@ -9,15 +9,14 @@ import HeaderView from './views/HeaderView.vue';
 
 
 <template>
-  <div class="font-">
+  <div class="font-Poppins !scroll-smooth">
     <HeaderView/>
     <div class="px-20">
       <HomeView id="home"/>
-      <ProjectsView id="project"/>
       <AboutView id="about"/>
+      <ProjectsView id="project"/>
       <ContactView id="contact"/>
     </div>
-    
   </div>
 
 </template>
