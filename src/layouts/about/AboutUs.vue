@@ -5,9 +5,9 @@
     <div class="bg-[#050d16] px-5 py-5 md:mt-[40dvh] relative md:px-20">
         <div id="about" class="h-10 absolute top-[-10dvh]"></div>
         <div class="grid grid-cols-1 relative
-        md:max-lg:py-[5dvh] md:flex md:justify-between md:mx-[-11dvh]
-        lg:mx-[15dvh]
-        xl:mx-[35dvh]
+        md:max-lg:py-[5dvh] md:flex md:justify-between md:mx-[-4em]
+        lg:mx-[5em]
+        xl:mx-[9em]
         ">
             <div class="h-[30dvh] my-5 relative 
         md:w-[40dvh] md:h-[40dvh] md:ml-6 md:top-0 md:right-0">
