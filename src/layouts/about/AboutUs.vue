@@ -3,15 +3,22 @@
 <template>
     <!-- Anchor -->
     <div id="about" class="h-10"></div>
-    <div class="mb-12 mx-10 md:mt-[11dvh] md:flex md:mx-[33dvh]">
+    <div class="mb-12 mx-10 md:mt-[11dvh] md:flex md:mx-[33dvh] relative">
         <!-- Contents -->
         <div class="w-auto md:w-[80dvh] text-white">
-            <div class="flex justify-between items-center">
-                <div class="w-[30%] h-[.4dvh] bg-[#8E8E8E]"></div>
-                <div class="w-auto ">
-                    <h1 class="text-primary text-xl md:text-3xl">About Me</h1>
+            <div class="flex items-center">
+                    <div class="w-full flex justify-center">
+                        <h1 class="text-primary text-xl md:text-3xl">About Me</h1>
+                    </div>
+                    <div class="w-full h-[.4dvh] bg-[#8E8E8E]"></div>
+
+            </div>
+            <div class="mt-2 mb-8 md:ml-6 w-[40dvh] h-[40dvh] relative md:absolute md:top-0 md:right-0">
+                <div class="absolute w-[40dvh] h-[40dvh] border-2 border-primary top-6 left-16 -z-10 rounded-md"></div>
+                <div class="absolute w-[40dvh] h-[40dvh] border-2 border-primary top-3 left-12 -z-10 rounded-md"></div>
+                <div class="absolute top-0 left-9 w-[40dvh] h-[40dvh]">
+                    <img src="/src/assets/profilePhoto/profile.jpg" alt="" class="rounded-md">
                 </div>
-                <div class="w-[30%] h-[.4dvh] bg-[#8E8E8E]"></div>
             </div>
             <div>
                 <p class=" text-gray-200 mt-2 text-xs text-justify md:text-base">
@@ -47,12 +54,6 @@
                 </p>
             </div>
         </div>
-        <div class="my-4 md:ml-6 w-[40dvh] h-[40dvh] relative">
-            <div class="absolute w-[40dvh] h-[40dvh] border-2 border-primary top-6 left-6 -z-10 rounded-md"></div>
-            <div class="absolute w-[40dvh] h-[40dvh] border-2 border-primary top-3 left-3 -z-10 rounded-md"></div>
-            <div class="absolute top-0 left-0 w-[40dvh] h-[40dvh]">
-                <img src="/src/assets/profilePhoto/profile.jpg" alt="" class="rounded-md">
-            </div>
-        </div>
+
     </div>
 </template>
