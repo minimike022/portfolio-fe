@@ -6,7 +6,7 @@
         <div id="about" class="h-10 absolute top-[-10dvh]"></div>
         <div class="grid grid-cols-1 relative
         sm:mx-[-1dvh]
-        md:py-[5dvh] md:flex md:justify-between
+        md:py-[5dvh] md:flex md:justify-between md:mx-[-8dvh]
         lg:mx-[18dvh]
         xl:mx-[24dvh]
         ">
