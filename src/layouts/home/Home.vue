@@ -11,7 +11,7 @@ const texts = ref(
 </script>
 <template>
     
-    <div class="flex my-32">
+    <div class="flex my-28">
         <div class="flex flex-col ml-10 text-white">
             <h1 class="text-primary text-2xl my-2">Hi! my name is</h1>
             <h1 class="text-primary font-bold text-4xl my-2">Michael Eduardo Jr</h1>
