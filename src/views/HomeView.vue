@@ -5,7 +5,7 @@ import Email from '../layouts/socials/Email.vue';
 </script>
 <template>
     <Home/>
-    <div class="absolute bottom-24 right-0 flex items-center pointer-events-none">
+    <div class="absolute hidden bottom-24 right-0 md:flex items-center pointer-events-none">
       <Email/>
     </div>
 </template>

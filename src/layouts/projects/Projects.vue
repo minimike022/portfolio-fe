@@ -11,15 +11,15 @@ const projects = ref([
 </script>
 <template>
     <div id="projects" class="h-10"></div>
-    <div class="flex justify-center mt-[11dvh]">
+    <div class="flex mx-10 md:mx-0 md:justify-center mt-[11dvh]">
         <div>
             <div class="flex items-center">
             <h1 class="text-primary text-3xl">Projects</h1>
             <div class="ml-4 w-full h-[.4dvh] bg-[#8E8E8E]"></div>
         </div>
-        <div class="grid grid-cols-3 gap-x-5 my-4">
-            <div v-for="proj in projects" class="w-[45dvh] text-sm text-white bg-[#15273E] p-4 rounded-md relative">
-                <div class="absolute flex right-0 px-4">
+        <div class="grid grid-cols-1 gap-y-5 md:grid-cols-3 md:gap-x-5 my-4">
+            <div v-for="proj in projects" class="w-full md:w-[50dvh] text-sm text-white bg-[#15273E] p-4 rounded-md relative">
+                <div class="absolute flex left-0 px-4">
                     <a v-if="proj.github !== ''" :href="proj.github"><img src="/src/assets/socialLogo/githubLogo.svg" alt="" class="w-[24px]"></a>
                     <a v-if="proj.itch !== ''" :href="proj.itch" class="ml-2"><img src="/src/assets/socialLogo/playLogo.svg" alt=""></a>
                 </div>

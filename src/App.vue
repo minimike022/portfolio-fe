@@ -9,14 +9,14 @@ import Socials from './layouts/socials/Socials.vue';
 
 
 <template>
-  <div class="font-Poppins !scroll-smooth">
+  <div class="font-Poppins">
     <HeaderView/>
-    <div class="px-20">
+    <div class="md:px-20">
       <HomeView id="home"/>
       <AboutView id="about"/>
       <ProjectsView id="project"/>
       <ContactView id="contact"/>
     </div>
   </div>
-  <Socials/>
+  <Socials class="hidden md:flex"/>
 </template>
