@@ -11,7 +11,7 @@ import Socials from './layouts/socials/Socials.vue';
 <template>
   <div class="font-Poppins">
     <HeaderView/>
-    <div class="md:px-20">
+    <div class="">
       <HomeView id="home"/>
       <AboutView id="about"/>
       <ProjectsView id="project"/>
