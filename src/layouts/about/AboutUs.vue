@@ -3,22 +3,21 @@
 <template>
     <!-- Anchor -->
     <div id="about" class="h-10"></div>
-    <div class="mb-12 mx-10 md:mt-[11dvh] md:flex md:mx-[33dvh] relative">
+    <div class="mb-12 mx-10 md:mt-[11dvh] grid grid-cols-1 md:flex md:justify-between md:mx-[24dvh] relative">
+        <div class="mt-2 md:ml-6 w-[35dvh] h-[35dvh] md:w-[40dvh] md:h-[40dvh] relative md:top-0 md:right-0">
+            <div class="absolute h-[25dvh] w-[25dvh] md:w-[40dvh] md:h-[40dvh] border-2 border-primary top-6 left-16 -z-10 rounded-md"></div>
+            <div class="absolute h-[25dvh] w-[25dvh] md:w-[40dvh] md:h-[40dvh] border-2 border-primary top-3 left-12 -z-10 rounded-md"></div>
+            <div class="absolute top-0 left-9 h-[25dvh] w-[25dvh] md:w-[40dvh] md:h-[40dvh]">
+                <img src="/src/assets/profilePhoto/profile.jpg" alt="" class="rounded-md">
+            </div>
+        </div>
         <!-- Contents -->
         <div class="w-auto md:w-[80dvh] text-white">
             <div class="flex items-center">
-                    <div class="w-full flex justify-center">
-                        <h1 class="text-primary text-xl md:text-3xl">About Me</h1>
-                    </div>
-                    <div class="w-full h-[.4dvh] bg-[#8E8E8E]"></div>
-
-            </div>
-            <div class="mt-2 mb-8 md:ml-6 w-[40dvh] h-[40dvh] relative md:absolute md:top-0 md:right-0">
-                <div class="absolute w-[40dvh] h-[40dvh] border-2 border-primary top-6 left-16 -z-10 rounded-md"></div>
-                <div class="absolute w-[40dvh] h-[40dvh] border-2 border-primary top-3 left-12 -z-10 rounded-md"></div>
-                <div class="absolute top-0 left-9 w-[40dvh] h-[40dvh]">
-                    <img src="/src/assets/profilePhoto/profile.jpg" alt="" class="rounded-md">
+                <div class="w-full flex justify-center">
+                    <h1 class="text-primary text-xl md:text-3xl">About Me</h1>
                 </div>
+                <div class="w-full h-[.4dvh] bg-[#8E8E8E]"></div>
             </div>
             <div>
                 <p class=" text-gray-200 mt-2 text-xs text-justify md:text-base">
@@ -54,6 +53,5 @@
                 </p>
             </div>
         </div>
-
     </div>
 </template>
