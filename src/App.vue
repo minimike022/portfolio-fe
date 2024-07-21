@@ -18,5 +18,5 @@ import Socials from './layouts/socials/Socials.vue';
       <ContactView id="contact"/>
     </div>
   </div>
-  <Socials class="hidden md:flex"/>
+  <Socials class="hidden lg:flex"/>
 </template>

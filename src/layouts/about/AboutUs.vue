@@ -2,33 +2,29 @@
 </script>
 <template>
     <!-- Anchor -->
-    <div class="bg-[#050d16] md:px-20">
-        <div id="about" class="h-10"></div>
-        <div class=" mb-12 mx-10 md:mt-[11dvh] grid grid-cols-1 md:flex md:justify-between md:mx-[24dvh] relative">
-            <div class="mt-2  w-full h-[45dvh]  relative 
-        md:w-[40dvh] md:h-[40dvh] md:ml-6 md:top-0 md:right-0
+    <div class="bg-[#050d16] px-5 py-5 md:mt-[40dvh] relative md:px-20">
+        <div id="about" class="h-10 absolute top-[-10dvh]"></div>
+        <div class="grid grid-cols-1 relative
+        sm:mx-[-1dvh]
+        md:py-[5dvh] md:flex md:justify-between
+        lg:mx-[18dvh]
+        xl:mx-[24dvh]
         ">
-                <div class="absolute h-[30dvh] w-[30dvh] hidden border-2 border-primary z-0 rounded-md
-            md:block md:w-[40dvh] md:h-[40dvh] md:top-6 md:left-16
-            "></div>
-                <div class="absolute h-[30dvh] w-[30dvh] hidden border-2 border-primary  z-0 rounded-md
-            md:block md:w-[40dvh] md:h-[40dvh] md:top-3 md:left-12
-            "></div>
+            <div class="mt-2 h-[30dvh] my-5 relative 
+        md:w-[40dvh] md:h-[40dvh] md:ml-6 md:top-0 md:right-0">
                 <div class="absolute h-[30dvh] w-[30dvh] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-            md:w-[40dvh] md:h-[40dvh] md:top-0 md:left-9 md:translate-x-0 md:translate-y-0
-            ">
-                    <img src="/src/assets/profilePhoto/profile.jpg" alt="" class="rounded-md">
+            md:w-[45dvh] md:h-[45dvh] md:top-0 md:left-9 md:translate-x-0 md:translate-y-0">
+                    <img src="/src/assets/profilePhoto/profile.png" alt="" class="rounded-md">
                 </div>
             </div>
             <!-- Contents -->
             <div class="w-auto 
         md:w-[80dvh] 
+        lg:px-4
         text-white">
                 <div class="flex items-center">
-                    <div class="w-full flex justify-center">
-                        <h1 class="text-primary text-xl md:text-3xl">About</h1>
-                    </div>
-                    <div class="w-full h-[.4dvh] bg-[#8E8E8E]"></div>
+                    <h1 class="text-3xl lg:text-5xl text-primary font-bold">About</h1>
+                    <div class="ml-4 w-full h-[.4dvh] bg-[#8E8E8E]"></div>
                 </div>
                 <div>
                     <p class="text-gray-200 mt-2 text-xs text-justify md:text-base">

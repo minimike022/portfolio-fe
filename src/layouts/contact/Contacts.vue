@@ -2,8 +2,9 @@
 import ContactForms from '/src/components/ContactForms.vue'
 </script>
 <template>
-    <div id="contactUs" class="h-10"></div>
-    <div class="flex flex-col md:flex-row justify-between mx-10 md:px-[25dvh] mb-12 mt-[13dvh]">
+    <div class="bg-[#050d16]">
+        <div id="contactUs" class="h-10"></div>
+    <div class=" flex flex-col md:flex-row justify-between mx-10 md:px-[25dvh] pb-12 mt-[13dvh]">
         <div class="mt-10">
             <h1 class="text-5xl text-white font-bold mt-2">Let’s <span class="text-[#76C79B]">CHAT.</span></h1>
             <h1 class="text-5xl text-white font-bold mt-2">Tell me about your</h1>
@@ -12,6 +13,7 @@ import ContactForms from '/src/components/ContactForms.vue'
                 <br>together🤝</h2>
         </div>
         <ContactForms />
+    </div>
     </div>
 
 </template>

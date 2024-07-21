@@ -10,14 +10,15 @@ const projects = ref([
 
 </script>
 <template>
-    <div id="projects" class="h-10"></div>
-    <div class="flex mx-10 md:mx-0 md:justify-center mt-[11dvh]">
+    
+    <div class="flex px-10 py-8 md:mx-0 md:justify-center relative">
+        <div id="projects" class="absolute h-10 top-[-13dvh]"></div>
         <div>
             <div class="flex items-center">
-                <h1 class="text-primary text-3xl">Projects</h1>
+                <h1 class="text-primary text-3xl lg:text-5xl font-bold">Projects</h1>
                 <div class="ml-4 w-full h-[.4dvh] bg-[#8E8E8E]"></div>
             </div>
-            <div class="grid grid-cols-1 gap-y-5 md:grid-cols-3 md:gap-x-5 my-4">
+            <div class="grid grid-cols-1 gap-y-5 md:grid-cols-3 md:gap-x-5 my-8">
                 <div v-for="proj in projects"
                     class="w-full md:w-[50dvh] text-sm text-white bg-[#15273E] p-4 rounded-md relative">
                     <div class="absolute flex left-0 px-4">
