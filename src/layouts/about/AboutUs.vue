@@ -5,10 +5,11 @@
     <div class="bg-[#050d16] px-5 py-5 md:mt-[40dvh] relative md:px-20">
         <div id="about" class="h-10 absolute top-[-10dvh]"></div>
         <div class="grid grid-cols-1 relative
-        md:py-[5dvh] md:flex md:justify-between md:gap-x-2
-        xl:justify-evenly
+        md:max-lg:py-[5dvh] md:flex md:justify-between md:mx-[-11dvh]
+        lg:mx-[15dvh]
+        xl:mx-[35dvh]
         ">
-            <div class="mt-2 h-[30dvh] my-5 relative 
+            <div class="h-[30dvh] my-5 relative 
         md:w-[40dvh] md:h-[40dvh] md:ml-6 md:top-0 md:right-0">
                 <div class="absolute h-[30dvh] w-[30dvh] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
             md:w-[45dvh] md:h-[45dvh] md:top-0 md:left-9 md:translate-x-0 md:translate-y-0">
