@@ -15,7 +15,7 @@ console.log(store.mobile_nav)
         <a href="#" class="my-4">Home</a>
         <a href="#about" class="my-4">About</a>
         <a href="#projects" class="my-4">Projects</a>
-        <a href="#contacts" class="my-4">Contact Us</a>
+        <a href="#contact" class="my-4">Contact Us</a>
         <div class="flex flex-col my-4">
             <h1>Follow Us</h1>
             <div class="w-full flex justify-between my-4">
