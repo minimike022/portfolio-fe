@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const projects = ref([
-    { itch: "dwa", github: "https://github.com/minimike022/FogponicsFinal", title: "Automated IoT Based Fogponics System", description: "Built a system that controls fogponics system with 3 functionality modes Automatically, Schedulled, or Manually Control the said system", role: "Team Lead", language: ["HTML", "CSS", "PHP", "Tailwind", "Laravel", "MySQL"] },
+    { itch: "", github: "https://github.com/minimike022/FogponicsFinal", title: "Automated IoT Based Fogponics System", description: "Built a system that controls fogponics system with 3 functionality modes Automatically, Schedulled, or Manually Control the said system", role: "Team Lead", language: ["HTML", "CSS", "PHP", "Tailwind", "Laravel", "MySQL"] },
     { itch: "", github: "", title: "Vaccine Management System", description: "Built a system during covid-19 to facilitate information of a person regarding his/her vaccine data", role: "Team Lead", language: ["HTML", "CSS", "PHP", "MySQL"] },
     { itch: "https://minimike.itch.io/cubewars", github: "", title: "Cube Wars", description: "Fight alongside with yourself to destroy all this evil cubes that tries to execute you", role: "Team Lead", language: ["C#", "Unity"] },
 ])
