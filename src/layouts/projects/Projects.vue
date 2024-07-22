@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const projects = ref([
-    { itch: "dwa", github: "https://github.com/minimike022/FogponicsFinal", title: "Automated IoT Based Fogponics System", description: "Built a system that controls fogponics system either Automatically, Schedulled, or Manually Control the said system", role: "Team Lead", language: ["HTML", "CSS", "PHP", "Tailwind", "Laravel", "MySQL"] },
+    { itch: "dwa", github: "https://github.com/minimike022/FogponicsFinal", title: "Automated IoT Based Fogponics System", description: "Built a system that controls fogponics system with 3 functionality modes Automatically, Schedulled, or Manually Control the said system", role: "Team Lead", language: ["HTML", "CSS", "PHP", "Tailwind", "Laravel", "MySQL"] },
     { itch: "", github: "", title: "Vaccine Management System", description: "Built a system during covid-19 to facilitate information of a person regarding his/her vaccine data", role: "Team Lead", language: ["HTML", "CSS", "PHP", "MySQL"] },
     { itch: "https://minimike.itch.io/cubewars", github: "", title: "Cube Wars", description: "Fight alongside with yourself to destroy all this evil cubes that tries to execute you", role: "Team Lead", language: ["C#", "Unity"] },
 ])
@@ -20,7 +20,7 @@ const projects = ref([
             </div>
             <div class="grid grid-cols-1 gap-y-5 md:grid-cols-3 md:gap-x-5 my-8">
                 <div v-for="proj in projects"
-                    class="w-full md:w-[50dvh] text-sm text-white bg-[#15273E] p-4 rounded-md relative">
+                    class="w-full md:w-[50dvh] text-sm text-white bg-[#15273E] p-4 rounded-md relative hover:scale-105">
                     <div class="absolute flex left-0 px-4">
                         <a v-if="proj.github !== ''" :href="proj.github"><img
                                 src="/src/assets/socialLogo/githubLogo.svg" alt="" class="w-[24px]"></a>

@@ -1,4 +1,7 @@
 <script setup>
+
+
+
 </script>
 <template>
     <!-- Anchor -->
@@ -7,7 +10,7 @@
         <div class="grid grid-cols-1 relative
         md:max-lg:py-[5dvh] md:flex md:justify-between md:mx-[-4em]
         lg:mx-[5em]
-        xl:mx-[9em]
+        xl:mx-[12em]
         ">
             <div class="h-[30dvh] my-5 relative 
         md:w-[40dvh] md:h-[40dvh] md:ml-6 md:top-0 md:right-0">

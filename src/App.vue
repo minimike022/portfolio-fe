@@ -5,10 +5,12 @@ import ProjectsView from './views/ProjectsView.vue';
 import ContactView from './views/ContactView.vue';
 import HeaderView from './views/HeaderView.vue';
 import Socials from './layouts/socials/Socials.vue';
+import PopupNavigation from './components/PopupNavigation.vue';
 </script>
 
 
 <template>
+  <PopupNavigation/>
   <div class="font-Poppins">
     <HeaderView/>
     <div class="">
@@ -19,4 +21,5 @@ import Socials from './layouts/socials/Socials.vue';
     </div>
   </div>
   <Socials class="hidden lg:flex"/>
+  
 </template>

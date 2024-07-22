@@ -1,10 +1,18 @@
 <script setup>
-import PopupNavigation from '../../components/PopupNavigation.vue';
+import { useStore } from '../../util/NavigationPanel';
+
+const store = useStore()
+
+const hide = () => {
+    
+    console.log(store.mobile_nav)
+}
 </script>
 
 <template>
+    
     <div class="flex md:hidden">
-        <img src="/src/assets/menu.svg" alt="" class="w-[32px]">
+        <img src="/src/assets/menu.svg" alt="" class="w-[32px]" @click="store.mobile_nav = true">
     </div>
     <div class=" items-center justify-between w-[75dvh] hidden md:flex">
         <a href="#" class="text-[#8E8E8E] hover:text-primary">Home</a>
