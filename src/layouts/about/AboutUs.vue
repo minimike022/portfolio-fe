@@ -45,23 +45,35 @@
                             building modern web applications using multiple
                             technologies,
                         </span> ensuring that each application is built to high quality standards.
-                        <br><br>Here are the languages and frameworks that I’ve been working with recently.
-                        <br><br>
-                    <div class="grid grid-cols-3 gap-y-3 text-sm">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Tailwind</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Vue</li>
-                        <li>C#</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Php</li>
-                        <li>Laravel</li>
-                        <li>Go</li>
-                    </div>
+
                     </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 text-white mt-8">
+            <div class="flex flex-col items-center">
+                <h1 class="md:text-xl font-bold">Technologies</h1>
+                <div class="grid grid-cols-4 items-center gap-y-8 gap-x-14 mt-4">
+                    <img src="/src/assets/languagesLogo/html-5.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/css-3.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/tailwind.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/js.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/react.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/vue.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/c-sharp.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/java.png" alt="" class="w-[2.5em]"> 
+                    <img src="/src/assets/languagesLogo/python.png" alt="" class="w-[2.5em]"> 
+                    <img src="/src/assets/languagesLogo/php.png" alt="" class="w-[2.5em]">
+                    <img src="/src/assets/languagesLogo/laravel.png" alt="" class="w-[2.5em]">
+                    
+                    <img src="/src/assets/languagesLogo/Go.svg" alt="" class="w-[2.5em]">
+                </div>
+            </div>
+            <div class="flex flex-col items-center mt-8 md:mt-0">
+                <h1 class="md:text-xl font-bold">Badges and Certifications</h1>
+                <div class="flex items-center mt-4">
+                    <img src="/src/assets/certifications/awsCert.png" alt="" class="w-[5em]">
+
                 </div>
             </div>
         </div>
