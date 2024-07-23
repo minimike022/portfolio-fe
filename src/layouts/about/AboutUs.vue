@@ -54,19 +54,83 @@
             <div class="flex flex-col items-center">
                 <h1 class="md:text-xl font-bold">Technologies</h1>
                 <div class="grid grid-cols-4 items-center gap-y-8 gap-x-14 mt-4">
-                    <img src="/src/assets/languagesLogo/html-5.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/css-3.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/tailwind.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/js.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/react.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/vue.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/c-sharp.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/java.png" alt="" class="w-[2.5em]"> 
-                    <img src="/src/assets/languagesLogo/python.png" alt="" class="w-[2.5em]"> 
-                    <img src="/src/assets/languagesLogo/php.png" alt="" class="w-[2.5em]">
-                    <img src="/src/assets/languagesLogo/laravel.png" alt="" class="w-[2.5em]">
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/html-5.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">HTML</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/css-3.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">CSS</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/tailwind.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">Tailwind</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/js.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">JavaScript</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/react.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">ReactJS</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/vue.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">VueJS</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/c-sharp.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">C#</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/java.png" alt="" class="w-[2.5em]"> 
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">Java</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/python.png" alt="" class="w-[2.5em]"> 
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">Python</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/php.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">PHP</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/laravel.png" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">Laravel</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/Go.svg" alt="" class="w-[2.5em]">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden group-hover:block">
+                            <h1 class="text-sm font-semibold">Go</h1>
+                        </div>
+                    </div>
                     
-                    <img src="/src/assets/languagesLogo/Go.svg" alt="" class="w-[2.5em]">
+                    
+                    
+                    
+                    
                 </div>
             </div>
             <div class="flex flex-col items-center mt-8 md:mt-0">
