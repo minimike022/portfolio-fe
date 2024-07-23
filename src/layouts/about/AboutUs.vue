@@ -71,9 +71,8 @@
             </div>
             <div class="flex flex-col items-center mt-8 md:mt-0">
                 <h1 class="md:text-xl font-bold">Badges and Certifications</h1>
-                <div class="flex items-center mt-4">
+                <div class="mt-4">
                     <img src="/src/assets/certifications/awsCert.png" alt="" class="w-[5em]">
-
                 </div>
             </div>
         </div>
