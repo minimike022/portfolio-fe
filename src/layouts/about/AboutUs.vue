@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 text-white mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 text-white my-8">
             <div class="flex flex-col items-center">
                 <h1 class="md:text-xl font-bold">Technologies</h1>
                 <div class="grid grid-cols-4 items-center gap-y-8 gap-x-14 mt-4">
@@ -126,11 +126,6 @@
                             <h1 class="text-sm font-semibold">Go</h1>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
-                    
                 </div>
             </div>
             <div class="flex flex-col items-center mt-8 md:mt-0">
