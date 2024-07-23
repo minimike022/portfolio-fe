@@ -1,5 +1,6 @@
 <script setup>
 import {ref} from 'vue'
+import { send_email } from '../service/emailService';
 
 const response_forms = ref({
     full_name: '',
@@ -10,7 +11,7 @@ const response_forms = ref({
 
 
 const submit_form = () => {
-    console.log(response_forms.value)
+    send_email(response_forms)
 }
 </script>
 
