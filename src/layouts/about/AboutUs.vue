@@ -126,6 +126,18 @@
                             <h1 class="text-sm font-semibold">Go</h1>
                         </div>
                     </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/jquery.png" alt="" class="w-[2.5em] md:hover:scale-125">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden md:group-hover:block">
+                            <h1 class="text-sm font-semibold">JQuery</h1>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <img src="/src/assets/languagesLogo/ajax.png" alt="" class="w-[2.5em] md:hover:scale-125">
+                        <div class="absolute top-[-2em] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#0a1e36] w-auto px-6 py-2 rounded-lg hidden md:group-hover:block">
+                            <h1 class="text-sm font-semibold">AJAX</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col items-center mt-8 md:mt-0">
