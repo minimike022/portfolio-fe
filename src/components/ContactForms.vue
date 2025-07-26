@@ -11,7 +11,7 @@ const response_forms = ref({
 
 
 const submit_form = () => {
-    send_email(response_forms)
+    alert('Coming Soon! 🚀');
 }
 </script>
 
